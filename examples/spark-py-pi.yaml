@@ -35,7 +35,7 @@ spec:
     packages:
       - org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.1
   restartPolicy:
-    type: OnFailureXXX
+    type: OnFailure
     onFailureRetries: 3
     onFailureRetryInterval: 10
     onSubmissionFailureRetries: 5
